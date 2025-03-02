@@ -172,7 +172,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     // Append form data to URLSearchParams
     formData.forEach((value, key) => data.append(key, value));
 
-    fetch("https://script.google.com/macros/s/AKfycbx38044Pgr0gAgk1hT_j4GsH_eF2ySHpKBP6KBCzU2s3OobSFsQ78W_F9WiC58UMf65Qw/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbxt4T5o9VsThnVJAnIUKklf9Lu0V9jpHNm4iCYoQJZdiGWRbOvFPkVRHALwqVxKCWi7GQ/exec", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: data.toString()
